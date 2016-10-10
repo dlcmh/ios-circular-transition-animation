@@ -43,4 +43,4 @@ To make both Buttons round, create the necessary code
 Make dismissButton dismiss the second View Controller when clicked
 
 - connect second Button to IBAction named dismissSecondVC in SecondViewController
-- enter code `self.dismiss(animated: true, completion: nil)`
+- enter code `self.dismiss(animated: true, completion: nil)` - omission of `self` seems OK
