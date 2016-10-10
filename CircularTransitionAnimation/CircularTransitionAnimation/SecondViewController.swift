@@ -10,10 +10,12 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var dismissButton: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        dismissButton.layer.cornerRadius = dismissButton.frame.size.width / 2
     }
 
     override func didReceiveMemoryWarning() {
