@@ -30,3 +30,8 @@ Drag a Button above Image View - this will act as the Menu button
 - set Y position to 50
 - duplicate Button onto second View Controller, and ensure Y position is 50
 - set text of second Button to X - this will act as a Dismiss button
+
+To make both Buttons round, create the necessary code
+
+- create a new Cocoa Touch class file - Class: Second, Subclass of: UIViewController (Xcode appends ViewController to the class name Second)
+- set the second View Controller in Storyboard to have SecondViewController as its class

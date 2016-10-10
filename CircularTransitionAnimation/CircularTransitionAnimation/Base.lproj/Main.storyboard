@@ -39,10 +39,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="135.38230884557723"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="zDh-sh-dY7">
             <objects>
-                <viewController id="BV6-og-9HE" sceneMemberID="viewController">
+                <viewController id="BV6-og-9HE" customClass="SecondViewController" customModule="CircularTransitionAnimation" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="k4s-ZX-U4u"/>
                         <viewControllerLayoutGuide type="bottom" id="lqJ-FS-GAU"/>
