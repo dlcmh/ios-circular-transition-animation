@@ -13,4 +13,9 @@ Drag an Image View onto initial View Controller
 - resize to fill the entire view controller
 - in Size Inspector > Autoresizing, click all constraints to have this image stretch to fill the view and maintain its aspect ratio
 
+Drag a background image to Assets.xcassets and rename it to background
 
+In Storyboard > Attributes Inspector
+
+- set the Image View to background
+- set View > Content Mode to Aspect Fit
