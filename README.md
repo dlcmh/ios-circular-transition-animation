@@ -2,6 +2,14 @@
 
 Based on YouTube video [iOS Swift Tutorial: Create a Circular Transition Animation (Custom UIViewController Transitions)](https://youtu.be/B9sH_VxPPo4)
 
+## Concepts
+
+NSObject class named CircularTransition
+
+- UIView() var named circle
+- extension adopting UIViewControllerAnimatedTransitioning
+  - transitionDuration -> TimeInterval - return duration eg 0.3
+
 ## Steps
 
 Create single view application
