@@ -19,3 +19,10 @@ In Storyboard > Attributes Inspector
 
 - set the Image View to background
 - set View > Content Mode to Aspect Fit
+
+Place a Button above the image - this will act as the Menu button
+
+- 40 x 40 pixels
+- set text to X
+- set background color to orange-yellow
+- set text color to white, size to 17, style to Heavy
