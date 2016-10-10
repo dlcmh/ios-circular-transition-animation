@@ -38,3 +38,9 @@ To make both Buttons round, create the necessary code
 - set the second View Controller in Storyboard to have SecondViewController as its class
 - create IBOutlet for second button called dismissButton
 - in viewDidLoad, `dismissButton.layer.cornerRadius = dismissButton.frame.size.width / 2`
+- do the same thing for the first Button, but name it menuButton, and connection is to be made to ViewController class (and not SecondViewController) - selecting first Button in Storyboard automatically shows ViewController.swift in Assistant Editor
+
+Make dismissButton dismiss the second View Controller when clicked
+
+- connect second Button to IBAction named dismissSecondVC in SecondViewController
+- enter code `self.dismiss(animated: true, completion: nil)`
