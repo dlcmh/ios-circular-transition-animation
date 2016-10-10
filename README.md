@@ -6,9 +6,9 @@ Based on YouTube video [iOS Swift Tutorial: Create a Circular Transition Animati
 
 Create single view application
 
-Drag 1 additional view controller onto Storyboard
+Drag an additional View Controller onto Storyboard
 
-Drag a UIImage onto initial view controller
+Drag an Image View onto initial View Controller
 
 - resize to fill the entire view controller
 - in Size Inspector > Autoresizing, click all constraints to have this image stretch to fill the view and maintain its aspect ratio
